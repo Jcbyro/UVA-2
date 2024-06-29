@@ -1,0 +1,1496 @@
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+/* Estilos para pantallas de computadora */
+@media (min-width: 991px) {
+    /* Mostrar el HTML de Compu */
+    .vision-computadora {
+        display: block;
+    }
+    /* Ocultar el HTML de Celu */
+    .vision-celular {
+        display: none;
+    }
+}
+/* Estilos para pantallas de celular */
+@media (max-width: 767px) {
+    /* Mostrar el HTML de Celu */
+    .vision-celular {
+        display: block;
+    }
+    /* Ocultar el HTML de Compu */
+    .vision-computadora {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-weight: bold;
+    font-display: block;
+    src: url(https://design.penpot.app/fonts/sourcesanspro-bold.woff) format('woff');
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-node { background-clip: text !important; -webkit-background-clip: text !important; }
+
+/* Compu */
+.compu-420842ab56b3 {
+    position: relative;
+    width: 1200px;
+    height: 418px;
+    background: #FFFFFF;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Textos */
+.textos-4a7049a9e9c2 {
+    position: absolute;
+    left: 29px;
+    top: 160px;
+    width: 1125px;
+    height: 216px;
+}
+
+/* Los servicios que esta compañia ofrece son pizzerias antendidas por humanos difrazados de animatronicos alrededor de todo el mundo. */
+.los-servic-421775a61b60 {
+    position: absolute;
+    left: 286px;
+    top: 73px;
+    width: 248px;
+    height: 72px;
+}
+.los-servic-421775a61b60 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.los-servic-421775a61b60 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* La mision de esta empresa es mantener entretenidos a jovenes y adultos por todo el mundo con animatronicos.
+
+La vision de esta empresa es ser capaz de crea animatronicos con la capacidad de moverse a voluntad propia.
+
+Los valores de esta empresa se basan en los animatronicos y la */
+.la-mision-4a7018f54442 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 249px;
+    height: 216px;
+}
+.la-mision-4a7018f54442 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-4a7018f54442 .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Actualmente monopolizados los animatronicos, pero necesitamos dinero para poder hacer que los animatronicos se muevan por su cuenta, asi que compartiremos esa nueva tecnologia por un respectivo precio ni bien se logre obtener. */
+.actualment-4217b468a2df {
+    position: absolute;
+    left: 592px;
+    top: 37px;
+    width: 233px;
+    height: 126px;
+}
+.actualment-4217b468a2df .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.actualment-4217b468a2df .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Nr. Contacto: +1 (542) 452-1208
+
+Localizacion: Murature 242, La Union
+
+Email: CarlosUni@icloud.com */
+.nr-contac-4217ca9b00ee {
+    position: absolute;
+    left: 895px;
+    top: 52px;
+    width: 230px;
+    height: 89px;
+}
+.nr-contac-4217ca9b00ee .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-0-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-2-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-4217ca9b00ee .root-0-paragraph-set-0-paragraph-4-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Titulos */
+.titulos-4a70600b001d {
+    position: absolute;
+    left: 50px;
+    top: 110px;
+    width: 1097px;
+    height: 23px;
+}
+
+/* Mision, Vision y Valores */
+.mision-vi-4208ca1cdb36 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 196px;
+    height: 23px;
+}
+.mision-vi-4208ca1cdb36 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.mision-vi-4208ca1cdb36 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(255, 254, 254, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(255, 254, 254, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Propuesta Comercial */
+.propuesta-4208e3b0b3dd {
+    position: absolute;
+    left: 598px;
+    top: 0px;
+    width: 180px;
+    height: 23px;
+}
+.propuesta-4208e3b0b3dd .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.propuesta-4208e3b0b3dd .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(250, 251, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(250, 251, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Servicios Ofrecidos */
+.servicios-42090072c813 {
+    position: absolute;
+    left: 308px;
+    top: 0px;
+    width: 161px;
+    height: 23px;
+}
+.servicios-42090072c813 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.servicios-42090072c813 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(250, 251, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(250, 251, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Informacion de Contacto */
+.informacio-420913807e35 {
+    position: absolute;
+    left: 888px;
+    top: 0px;
+    width: 209px;
+    height: 23px;
+}
+.informacio-420913807e35 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.informacio-420913807e35 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.informacio-420913807e35 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
+}
+.informacio-420913807e35 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(250, 251, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(250, 251, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Rectangulos Titulo */
+.rectangulo-4a6fd9752e96 {
+    position: absolute;
+    left: 18px;
+    top: 93px;
+    width: 1155px;
+    height: 58px;
+}
+
+/* Rectangle */
+.rectangle-49dab27cfefe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 261px;
+    height: 58px;
+    background: #34345C;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49dba55c8f32 {
+    position: absolute;
+    left: 894px;
+    top: 0px;
+    width: 261px;
+    height: 58px;
+    background: #34345C;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49db50334dc4 {
+    position: absolute;
+    left: 591px;
+    top: 0px;
+    width: 261px;
+    height: 58px;
+    background: #34345C;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49dae3ff36d9 {
+    position: absolute;
+    left: 290px;
+    top: 0px;
+    width: 261px;
+    height: 58px;
+    background: #34345C;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangulos Textos */
+.rectangulo-4a70a2d10ead {
+    position: absolute;
+    left: 18px;
+    top: 140px;
+    width: 1155px;
+    height: 243px;
+}
+
+/* Rectangle */
+.rectangle-4b1cb120bc44 {
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    width: 261px;
+    height: 236px;
+    background: #FCFCFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49dba55c8f33 {
+    position: absolute;
+    left: 894px;
+    top: 0px;
+    width: 261px;
+    height: 243px;
+    background: #FCFCFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49db50334dc5 {
+    position: absolute;
+    left: 591px;
+    top: 8px;
+    width: 261px;
+    height: 235px;
+    background: #FCFCFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49dae3ff36da {
+    position: absolute;
+    left: 290px;
+    top: 6px;
+    width: 261px;
+    height: 237px;
+    background: #FCFCFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+/* Rectangulos */
+.rectangulo-4a6fdfd9ebfa {
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    width: 169px;
+    height: 76px;
+}
+
+/* Rectangle */
+.rectangle-49f5dd652f99 {
+    position: absolute;
+    left: 73px;
+    top: 2px;
+    width: 62px;
+    height: 54px;
+    background: #6B1912;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f5c0dd7e19 {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    width: 76px;
+    height: 75px;
+    background: #6B1912;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f6075ed97b {
+    position: absolute;
+    left: 132px;
+    top: 0px;
+    width: 37px;
+    height: 37px;
+    background: #6B1912;
+    border-radius: 0px;
+}
+
+/* Afton Robotics */
+.afton-robo-420893288623 {
+    position: absolute;
+    left: 456px;
+    top: 9px;
+    width: 279px;
+    height: 43px;
+}
+.afton-robo-420893288623 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.afton-robo-420893288623 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 40px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Celu */
+.celu-421d386b7b45 {
+    position: relative;
+    width: 414px;
+    height: 696px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Textos */
+.textos-4a7100802141 {
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    width: 389px;
+    height: 555px;
+}
+
+/* Nr. Contacto: +1 (542) 452-1208
+
+Localizacion: Murature 242, La Union
+
+Email: CarlosUni@icloud.com */
+.nr-contac-421ef453adaf {
+    position: absolute;
+    left: 0px;
+    top: 465px;
+    width: 377px;
+    height: 90px;
+}
+.nr-contac-421ef453adaf .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-0-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-2-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.nr-contac-421ef453adaf .root-0-paragraph-set-0-paragraph-4-text-1 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Actualmente monopolizados los animatronicos, pero necesitamos dinero para poder hacer que los animatronicos se muevan por su cuenta, asi que compartiremos esa nueva tecnologia por un respectivo precio ni bien se logre obtener. */
+.actualment-421ebd50259e {
+    position: absolute;
+    left: 0px;
+    top: 306px;
+    width: 377px;
+    height: 90px;
+}
+.actualment-421ebd50259e .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.actualment-421ebd50259e .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Los servicios que esta compañia ofrece son pizzerias antendidas por humanos difrazados de animatronicos alrededor de todo el mundo. */
+.los-servic-421e8a8e485c {
+    position: absolute;
+    left: 0px;
+    top: 188px;
+    width: 377px;
+    height: 60px;
+}
+.los-servic-421e8a8e485c .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.los-servic-421e8a8e485c .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* La mision de esta empresa es mantener entretenidos a jovenes y adultos por todo el mundo con animatronicos.
+
+La vision de esta empresa es ser capaz de crea animatronicos con la capacidad de moverse a voluntad propia.
+
+Los valores de esta empresa se basan en los animatronicos y la */
+.la-mision-421e6c42cb96 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 389px;
+    height: 144px;
+}
+.la-mision-421e6c42cb96 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-1 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-1-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-2 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-2-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-3 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-3-text-0 {
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: black;
+    font-family: "sourcesanspro";
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-4 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: start;
+}
+.la-mision-421e6c42cb96 .root-0-paragraph-set-0-paragraph-4-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Titulos */
+.titulos-4a70e82a02b5 {
+    position: absolute;
+    left: 10px;
+    top: 81px;
+    width: 389px;
+    height: 476px;
+}
+
+/* Propuesta Comercial */
+.propuesta-421ebd50259f {
+    position: absolute;
+    left: 0px;
+    top: 302px;
+    width: 377px;
+    height: 25px;
+}
+.propuesta-421ebd50259f .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.propuesta-421ebd50259f .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Servicios Ofrecidos */
+.servicios-421e8a8e485b {
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    width: 389px;
+    height: 23px;
+}
+.servicios-421e8a8e485b .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.servicios-421e8a8e485b .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(255, 252, 252, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(255, 252, 252, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Mision, Vision y Valores */
+.mision-vi-421e6c42cb95 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 389px;
+    height: 23px;
+}
+.mision-vi-421e6c42cb95 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.mision-vi-421e6c42cb95 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Informacion de Contacto */
+.informacio-421f83986c4d {
+    position: absolute;
+    left: 0px;
+    top: 453px;
+    width: 377px;
+    height: 23px;
+}
+.informacio-421f83986c4d .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.informacio-421f83986c4d .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.informacio-421f83986c4d .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.informacio-421f83986c4d .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: "sourcesanspro";
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Rectangulos Titulos */
+.rectangulo-4a6fbcb7f403 {
+    position: absolute;
+    left: 10px;
+    top: 76px;
+    width: 389px;
+    height: 487px;
+}
+
+/* Rectangle */
+.rectangle-49f90f5ee49f {
+    position: absolute;
+    left: 0px;
+    top: 454px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f90a5c64c0 {
+    position: absolute;
+    left: 0px;
+    top: 301px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f9005aefe8 {
+    position: absolute;
+    left: 0px;
+    top: 191px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Rectangle */
+.rectangle-49f859d42e4e {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 389px;
+    height: 33px;
+    background: #34345C;
+    border-radius: 0px;
+}
+
+/* Afton Robotics */
+.afton-robo-421dd1db44d6 {
+    position: absolute;
+    left: 70px;
+    top: 16px;
+    width: 273px;
+    height: 43px;
+}
+.afton-robo-421dd1db44d6 .root-0 {
+    display: flex;
+    white-space: break-spaces;
+    align-items: flex-start;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0 {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0-paragraph-0 {
+    font-size: 0;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+}
+.afton-robo-421dd1db44d6 .root-0-paragraph-set-0-paragraph-0-text-0 {
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    line-break: auto;
+    overflow-wrap: initial;
+    white-space: break-spaces;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 40px;
+    font-family: "sourcesanspro";
+    font-style: normal;
+    font-weight: bold;
+}
